@@ -1,2 +1,2 @@
-# Limo_S2_doc
-Limo_S2 uesr manual
+# S2_doc
+S2 uesr manual

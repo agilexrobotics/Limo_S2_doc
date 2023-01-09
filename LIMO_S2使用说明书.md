@@ -16,9 +16,9 @@ Version: 1.0.0
 
 ### 1.1 产品简介
 
-松灵机器人S2是一款集全向轮与机械臂一体的ROS开发平台，提供了适应场景更广泛、更符合行业应用要求的学习平台，适用于机器人教育、功能研发、产品开发。可在配套的专业沙盘中快速建立多场景实拟教学和测试，S2搭载NVIDIA Jeston Nano、激光雷达、深度相机等高性能传感器配置，可实现精确的自主定位、SLAM建图、路线规划和自主避障、红绿灯识别等丰富功能。
+松灵机器人s2是一款集全向轮与机械臂一体的ROS开发平台，提供了适应场景更广泛、更符合行业应用要求的学习平台，适用于机器人教育、功能研发、产品开发。可在配套的专业沙盘中快速建立多场景实拟教学和测试，s2搭载NVIDIA Jeston Nano、激光雷达、深度相机等高性能传感器配置，可实现精确的自主定位、SLAM建图、路线规划和自主避障、红绿灯识别等丰富功能。
 
-同时，松灵机器人联合国内ROS社区教学开创者古月居，致力于结合企业用人和行业应用需求，打造基于S2开发小车的全新ROS精品课程，助力院校科研教学，让学生达到更高的行业应用技术要求。
+同时，松灵机器人联合国内ROS社区教学开创者古月居，致力于结合企业用人和行业应用需求，打造基于s2开发小车的全新ROS精品课程，助力院校科研教学，让学生达到更高的行业应用技术要求。
 
 ### 1.2 产品列表
 
@@ -149,7 +149,7 @@ Version: 1.0.0
 	</tr>
     	<tr>
 		<td>IMU</td>
-        <td>MPU6050</td>
+        <td>HI226</td>
 	</tr>
     	<tr>
 		<td>CPU</td>
@@ -203,7 +203,7 @@ Version: 1.0.0
 </table>
 ### 1.4 Nvidia Jetson Nano介绍
 
-Nvidia Jetson Nano 是一款功能强大的小型计算机，专为支持入门级边缘 AI 应用程序和设备而设计。依托完善的 NVIDIA JetPack™ SDK 包含用于深度学习、计算机视觉、图形、多媒体等方面的加速库。搭载在s2高配版本，可以用于拓展机器人导航定位、图像处理、语音识别等技术的拓展。
+Nvidia Jetson Nano 是一款功能强大的小型计算机，专为支持入门级边缘 AI 应用程序和设备而设计。依托完善的 NVIDIA JetPack™ SDK 包含用于深度学习、计算机视觉、图形、多媒体等方面的加速库。搭载在limo高配版本，可以用于拓展机器人导航定位、图像处理、语音识别等技术的拓展。
 
 | GPU      | 128-Core Maxwell                                             |
 | -------- | ------------------------------------------------------------ |
@@ -238,27 +238,27 @@ Android端扫描下面二维码：
 
 下载链接：https://www.pgyer.com/CjOI
 
-2、下载App成功后，打开App,如图1-1所示，连接S2_xxxxxx的蓝牙；安卓手机点击左上的的蓝牙图标进入蓝牙扫描界面  
+2、下载App成功后，打开App,如图1-1所示，连接LIMO_xxxxxx的蓝牙；安卓手机点击左上的的蓝牙图标进入蓝牙扫描界面  
 
 ![img](./s2_image/App_2.png) 
 
-3、遥控S2
+3、遥控limo
 
 ![img](./s2_image/App_3.png)
 
-左边控制杆：控制S2前进后退
+左边控制杆：控制limo前进后退
 
-右边控制杆：控制S2左转右转
+右边控制杆：控制limo左转右转
 
 中间进度条：速度值显示
 
 模式切换：总共有三种模式，阿克曼运动模式：ackermann，四轮差速运动模式：4wd，麦克纳姆运动模式：mailun
 
- ackerMann：需要手动将S2小车切换阿克曼模式，主要用于校准零点、控制前进后退以及转动角度；
+ ackerMann：需要手动将LIMO小车切换阿克曼模式，主要用于校准零点、控制前进后退以及转动角度；
 
-4wd：需要手动将S2小车切换四轮差速模式，主要控制前进后退、转换方向以及原地旋转；
+4wd：需要手动将LIMO小车切换四轮差速模式，主要控制前进后退、转换方向以及原地旋转；
 
-Mailun：需要手动将S2小车切换麦轮模式，主要控制前进后退、转换方向以及原地旋转
+Mailun：需要手动将LIMO小车切换麦轮模式，主要控制前进后退、转换方向以及原地旋转
 
 4、APP设置说明
 
@@ -268,29 +268,29 @@ Mailun：需要手动将S2小车切换麦轮模式，主要控制前进后退、
 
 Language switch：通过点击右边的按钮 English/简体，来切换英语和中文
 
-Left-romte min speed：设置S2小车的最小速度
+Left-romte min speed：设置LIMO小车的最小速度
 
-Left-romte max speed：设置S2小车的最大速度
+Left-romte max speed：设置LIMO小车的最大速度
 
-right-romte min speed：设置S2小车的最小旋转速度
+right-romte min speed：设置LIMO小车的最小旋转速度
 
-right-romte max speed：设置S2小车的最大旋转速度
+right-romte max speed：设置LIMO小车的最大旋转速度
 
 veer calibration：设置零点矫正，先点击+号，然后点击确定Verify，当校准成功会弹出提醒框Successful calibration
 
 BlueTooth：点击弹出蓝牙扫描界面
 
-Bluetooth management：点击random 生成任意以S2_xxxx的命名的名字，确认OK并同步修改小车蓝牙的名字，注意此时蓝牙会断开，并会提醒重新连接蓝牙，重新连接蓝牙后可以继续控制小车；当app再次启动，小车的蓝牙名字已经显示修改成功的状态
+Bluetooth management：点击random 生成任意以LIMO_xxxx的命名的名字，确认OK并同步修改小车蓝牙的名字，注意此时蓝牙会断开，并会提醒重新连接蓝牙，重新连接蓝牙后可以继续控制小车；当app再次启动，小车的蓝牙名字已经显示修改成功的状态
 
 ### 1.9 远程桌面连接	
 
 #### 1.9.1 下载安装NoMachine
 
-首先在个人电脑下载相应的软件，下载链接：https://www.nomachine.com/download，根据自己电脑的操作系统和架构下载相应的版本。让S2和电脑连接到同一个WIFI下。                         
+首先在个人电脑下载相应的软件，下载链接：https://www.nomachine.com/download，根据自己电脑的操作系统和架构下载相应的版本。让s2和电脑连接到同一个WIFI下。                         
 
 #### 1.9.2 连接wifi
 
-S2的后端有USB借口和HDMI接口，需要接上显示器之后才能连接wifi；然后给S2连接上键盘鼠标；键盘鼠标成功连接之后通过以下操作连接wifi，选择需要连接的wifi。
+s2的后端有USB借口和HDMI接口，需要接上显示器之后才能连接wifi；然后给s2连接上键盘鼠标；键盘鼠标成功连接之后通过以下操作连接wifi，选择需要连接的wifi。
 
 ![](./s2_image/wifi_1.png)
 
@@ -300,7 +300,7 @@ S2的后端有USB借口和HDMI接口，需要接上显示器之后才能连接wi
 
 
 
-#### 1.9.2 远程连接S2
+#### 1.9.2 远程连接s2
 
 选择连接对象
 
@@ -324,7 +324,7 @@ Username：agilex   Password：agx 勾选保存密码
 
 #### 2.1.1 电池基本信息
 
-S2随车配备一个12V的电池，该电池有两个接口。分别为黄色的电池输出接口和黑色的电池充电接口。
+ s2随车配备一个12V的电池，该电池有两个接口。分别为黄色的电池输出接口和黑色的电池充电接口。
 
 该电池参数如下表
 
@@ -341,17 +341,17 @@ S2随车配备一个12V的电池，该电池有两个接口。分别为黄色的
 
 ------
 
-- 为了保证运输存储安全，S2配备的电池并不一定处于满电状态 。
-- 请不要在电池使用殆尽以后再进行充电，当 S2提示电量低时，请及时充电。
+- 为了保证运输存储安全，s2配备的电池并不一定处于满电状态 。
+- 请不要在电池使用殆尽以后再进行充电，当 s2提示电量低时，请及时充电。
 - s2在关机状态下仍会产生静态待机电流，为防止电池过放，长时间不使用s2时请断开电池与车体的连接。
 - 请勿将电池投火中，或对电池加热，请勿在高温下存储电池，电池存储的最佳温度为-10℃~40℃。
-- 必须使用原厂配备或认证的电池为S2供电。
+- 必须使用原厂配备或认证的电池为s2供电。
 
 ------
 
 ####  2.1.2 充电
 
-S2默认随车配备一个12.6V 2A的充电器，可满足客户的充电需求，且充电器上设有指示灯可显示充电状态。
+s2默认随车配备一个12.6V 2A的充电器，可满足客户的充电需求，且充电器上设有指示灯可显示充电状态。
 
 ------
 
@@ -375,7 +375,7 @@ S2默认随车配备一个12.6V 2A的充电器，可满足客户的充电需求�
 
 - 禁止使用非原装充电器对电池进行充电，请勿在0℃以下给电池充电。
 
-- 充电时必须将电池与S2车体分离，禁止在电池充电的同时为S2进行供电。
+- 充电时必须将电池与s2车体分离，禁止在电池充电的同时为s2进行供电。
 - 当充电器指示灯变为绿色时表示充电完毕，但为了延长电池寿命，充电器会以0.1A的电流进行涓流充电，持续约0.5小时。
 
 - 当前电池从8.25V到充满电状态大约需要2.5小时，电池充满电电压约为12.6V。
@@ -384,10 +384,10 @@ S2默认随车配备一个12.6V 2A的充电器，可满足客户的充电需求�
 
 ------
 
-- S2的工作温度为-10℃ ~ 40℃，请勿在温度低于-10℃、高于40℃环境中使用；
-- S2的使用环境的相对湿度要求是：最大80%，最小30%；
+- s2的工作温度为-10℃ ~ 40℃，请勿在温度低于-10℃、高于40℃环境中使用；
+- s2的使用环境的相对湿度要求是：最大80%，最小30%；
 - 请勿在存在腐蚀性、易燃性气体的环境或者靠近可燃性物质的环境中使用；
-- S2不具有防水功能，请勿在有雨、雪、积水的环境使用；
+- s2不具有防水功能，请勿在有雨、雪、积水的环境使用；
 - 建议使用环境海拔高度不超过1000米、昼夜温差不超过25℃；
 - 使用过程有疑问，请按照相关说明手册进行操作或者咨询相关技术人员；
 - 请勿未经技术支持和允许，私自改装内部设备结构。
@@ -398,18 +398,18 @@ S2默认随车配备一个12.6V 2A的充电器，可满足客户的充电需求�
 
 ------
 
-- S2的电池能提供最大10A的电流给底盘、Nano及传感器等系统供电，当系统检测到工作电流大于10A时，为了保护电池和电机会进入过流保护模式。
+- s2的电池能提供最大10A的电流给底盘、Nano及传感器等系统供电，当系统检测到工作电流大于10A时，为了保护电池和电机会进入过流保护模式。
 
 - USB HUB 的三个USB接口合计输出电流最大为0.5A。
 
 ### 2.4 通信拓扑
 
-![](./s2_image/通信拓扑.png)
+![](通信拓扑.png)
 
 ------
 
-- S2底盘内置了蓝牙5.0模块可以与手机端的APP连接，实现遥控功能。
-- S2与Nano通过UART接口直接连接，Nano通过该接口可实现对底盘的控制。
+- s2底盘内置了蓝牙5.0模块可以与手机端的APP连接，实现遥控功能。
+- s2与Nano通过UART接口直接连接，Nano通过该接口可实现对底盘的控制。
 - USB HUB提供2个USB和1个Type C接口，3个接口均工作在USB2.0协议下。
 - 后显示屏通过USB2.0接口与USB HUB相连，起触摸功能。
 
@@ -417,37 +417,37 @@ S2默认随车配备一个12.6V 2A的充电器，可满足客户的充电需求�
 
 ## 三、底盘驱动程序
 
-移动底盘需要通过程序驱动才能实现S2的导航，S2的底盘驱动程序分为两个版本，分别为C++版本和Python版本，两个版本都可以控制S2运动。
+移动底盘需要通过程序驱动才能实现limo的导航，s2的底盘驱动程序分为两个版本，分别为C++版本和Python版本，两个版本都可以控制s2运动。
 
 ### 3.1 C++底盘驱动
 
-C++版本的驱动程序所在文件夹为~/agilex_ws/src/S2_ros/S2_base，可以通过以下命令进入到该文件夹中
+C++版本的驱动程序所在文件夹为~/agilex_ws/src/limo_ros/limo_base，可以通过以下命令进入到该文件夹中
 
 ```
-cd agilex_ws/src/S2_ros/s2_base
+cd agilex_ws/src/limo_ros/limo_base
 ```
 
-以下是s2_base功能包的文件列表：
+以下是limo_base功能包的文件列表：
 
 ```
-├── s2_base
+├── limo_base
     ├── CMakeLists.txt
     ├── include
-    │   ├── s2_driver.h
-    │   ├── s2_protocol.h
+    │   ├── limo_driver.h
+    │   ├── limo_protocol.h
     │   └── serial_port.h
     ├── launch
-    │   └── s2_base.launch
+    │   └── limo_base.launch
     ├── msg
-    │   └── s2Status.msg
+    │   └── LimoStatus.msg
     ├── package.xml
     └── src
-        ├── s2_base_node.cpp
-        ├── s2_driver.cpp
+        ├── limo_base_node.cpp
+        ├── limo_driver.cpp
         └── serial_port.cpp
 ```
 
-s2_base下有四个文件夹，分别为include、launch、msg、src。include文件夹下存放着驱动程序所调用的库文件；launch文件夹下存放着驱动程序的启动文件；msg文件夹下存放着驱动程序所需要的消息文件；src文件夹下存放着驱动程序源代码。
+limo_base下有四个文件夹，分别为include、launch、msg、src。include文件夹下存放着驱动程序所调用的库文件；launch文件夹下存放着驱动程序的启动文件；msg文件夹下存放着驱动程序所需要的消息文件；src文件夹下存放着驱动程序源代码。
 
 | 文件夹  | 存放文件                 |
 | ------- | ------------------------ |
@@ -463,7 +463,7 @@ s2_base下有四个文件夹，分别为include、launch、msg、src。include�
 1、启动底盘，打开一个终端，在终端中输入命令：
 
 ```
-roslaunch s2_base s2_base.launch
+roslaunch limo_base limo_base.launch
 ```
 
 2、输入控制指令，打开一个终端，在终端中输入命令：
@@ -481,7 +481,7 @@ angular:
 
 注：整个命令复制到终端中输入即可，不要手动输入
 
-在终端输入命令之后，S2会先前行走一小段距离，然后停下。
+在终端输入命令之后，s2会先前行走一小段距离，然后停下。
 
 驱动程序源码中使用到的函数：
 
@@ -492,10 +492,10 @@ angular:
 | processRxData()              | 接收串口数据                 |
 | parseFrame()                 | 处理串口数据                 |
 | sendFrame()                  | 发送串口数据                 |
-| setMotionCommand()           | 设置s2的控制模式             |
+| setMotionCommand()           | 设置limo的控制模式           |
 | enableCommandedMode()        | 使能控制模式                 |
 | publishOdometry()            | 发布里程计数据               |
-| publishs2State()             | 发布s2的状态信息             |
+| publishLimoState()           | 发布limo的状态信息           |
 | publishIMUData()             | 发布IMU的数据                |
 | processErrorCode()           | 错误检测                     |
 | twistCmdCallback()           | 发布速度控制数据             |
@@ -506,43 +506,43 @@ angular:
 
 ### 3.2 Python底盘驱动
 
-s2的Python版本驱动上传到pypi，可以通过pip指令下载该驱动程序；程序的安装目录为~/.local/lib/python3.6/site-packages/pys2。它的文件列表为：
+limo的Python版本驱动上传到pypi，可以通过pip指令下载该驱动程序；程序的安装目录为~/.local/lib/python3.6/site-packages/pylimo。它的文件列表为：
 
 ```
 ├── __init__.py
-├── s2msg.py	
-├── s2.py	
+├── limomsg.py	
+├── limo.py	
 └── __pycache__
     ├── __init__.cpython-36.pyc
-    ├── s2.cpython-36.pyc
-    └── s2msg.cpython-36.pyc
+    ├── limo.cpython-36.pyc
+    └── limomsg.cpython-36.pyc
 ```
 
-Python版本的代码比较简洁，仅有三个文件组成驱动程序，init.py的作用为申明需要使用的文件， s2msg.py的作用为驱动成所需要的消息，s2.py是主程序，它的作用是驱动s2。
+Python版本的代码比较简洁，仅有三个文件组成驱动程序，init.py的作用为申明需要使用的文件， limomsg.py的作用为驱动成所需要的消息，limo.py是主程序，它的作用是驱动limo。
 
-| 文件名称 | 文件作用           |
-| -------- | ------------------ |
-| init.py  | 申明需要使用的文件 |
-| s2msg.py | 驱动成所需要的消息 |
-| s2.py    | 主程序，用于驱动s2 |
+| 文件名称   | 文件作用             |
+| ---------- | -------------------- |
+| init.py    | 申明需要使用的文件   |
+| limomsg.py | 驱动成所需要的消息   |
+| limo.py    | 主程序，用于驱动limo |
 
-我们提供了一个脚本调用该驱动程序，该脚本所在目录为agilex_ws/src/s2_ros/s2_base/script，脚本名称为s2move.py。
+我们提供了一个脚本调用该驱动程序，该脚本所在目录为agilex_ws/src/limo_ros/limo_base/script，脚本名称为limomove.py。
 
 可以通过以下命令访问此目录，打开终端，在终端中输入命令：
 
 注：在运行命令之前，请确保其他终端中的程序已经终止，终止命令为：Ctrl+c
 
 ```
-cd agilex_ws/src/s2_ros/s2_base/script
+cd agilex_ws/src/limo_ros/limo_base/script
 ```
 
 运行脚本，打开终端，在终端中输入命令：
 
 ```
-python3 s2move.py
+python3 limomove.py
 ```
 
-在终端输入命令之后，s2会先前行走一段距离，然后停下。
+在终端输入命令之后，limo会先前行走一段距离，然后停下。
 
 驱动程序中所使用的函数名称：
 
@@ -591,7 +591,7 @@ LD14 是深圳乐动机器人公司研发的一款激光雷达。LD14 主要由�
 打开一个新的终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_start.launch pub_odom_tf:=false
+roslaunch limo_bringup limo_start.launch pub_odom_tf:=false
 ```
 
 成功打开之后，终端会输出以下日志信息，如图：
@@ -601,7 +601,7 @@ roslaunch s2_bringup s2_start.launch pub_odom_tf:=false
 然后新开启一个终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup lidar_rviz.launch
+roslaunch limo_bringup lidar_rviz.launch
 ```
 
 成功运行之后会看到rviz可视化工具打开，其中显示的绿色数据就是雷达扫描出来的激光数据。
@@ -623,13 +623,13 @@ Gmapping是基于滤波SLAM框架的常用开源SLAM算法。Gmapping有效利�
 首先需要启动雷达，打开一个新终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_start.launch pub_odom_tf:=false
+roslaunch limo_bringup limo_start.launch pub_odom_tf:=false
 ```
 
 然后启动gmapping建图算法，打开另一个新终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_gmapping.launch
+roslaunch limo_bringup limo_gmapping.launch
 ```
 
 成功启动之后会打开rviz可视化工具，这时候看到的界面如图 
@@ -640,13 +640,13 @@ roslaunch s2_bringup s2_gmapping.launch
 
 构建完地图之后，需要运行以下命令，把地图保存到指定目录：
 
-1、切换到需要保存地图的目录下，这里把地图保存到~/agilex_ws/src/s2_ros/s2_bringup/maps/，在终端中输入命令：
+1、切换到需要保存地图的目录下，这里把地图保存到~/agilex_ws/src/limo_ros/limo_bringup/maps/，在终端中输入命令：
 
 ```
-cd ~/agilex_ws/src/s2_ros/s2_bringup/maps/
+cd ~/agilex_ws/src/limo_ros/limo_bringup/maps/
 ```
 
-2、切换到/agilex_ws/s2_bringup/maps 之后，继续在终端中输入命令：
+2、切换到/agilex_ws/limo_bringup/maps 之后，继续在终端中输入命令：
 
 ```
 rosrun map_server map_saver –f map1
@@ -669,13 +669,13 @@ cartographer是google推出的一套基于图优化的SLAM算法。该算法的�
 首先需要启动雷达，打开一个新终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_start.launch pub_odom_tf:=false
+roslaunch limo_bringup limo_start.launch pub_odom_tf:=false
 ```
 
 然后启动cartographer建图算法，打开另一个新终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_cartographer.launch
+roslaunch limo_bringup limo_cartographer.launch
 ```
 
 成功启动之后会弹出rviz可视化界面，如下图：
@@ -693,16 +693,16 @@ rosservice call /finish_trajectory 0
 （2）序列化保存其当前状态
 
 ```
-rosservice call /write_state "{filename: '${HOME}/agilex_ws/src/s2_ros/s2_bringup/maps/mymap.pbstream'}"
+rosservice call /write_state "{filename: '${HOME}/agilex_ws/src/limo_ros/limo_bringup/maps/mymap.pbstream'}"
 ```
 
 （3）将pbstream转换为pgm和yaml
 
 ```
-rosrun cartographer_ros cartographer_pbstream_to_ros_map -map_filestem=${HOME}/agilex_ws/src/s2_ros/s2_bringup/maps/mymap.pbstream -pbstream_filename=${HOME}/agilex_ws/src/s2_ros/s2_bringup/maps/mymap.pbstream -resolution=0.05
+rosrun cartographer_ros cartographer_pbstream_to_ros_map -map_filestem=${HOME}/agilex_ws/src/limo_ros/limo_bringup/maps/mymap.pbstream -pbstream_filename=${HOME}/agilex_ws/src/limo_ros/limo_bringup/maps/mymap.pbstream -resolution=0.05
 ```
 
-生成对应的pgm和yaml，放于${HOME}/agilex_ws/src/s2_ros/s2_bringup/maps/mymap.pbstream目录下 
+生成对应的pgm和yaml，放于${HOME}/agilex_ws/src/limo_ros/limo_bringup/maps/mymap.pbstream目录下 
 
 注：在建图过程中，终端中会出现一些警告，这是由于速度过快，数据处理不及时造成的，可以忽略
 
@@ -751,26 +751,26 @@ DWA 的全称为DynamicWindow Approaches，该算法可以搜索躲避和行进�
 （1）首先启动雷达，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_start.launch pub_odom_tf:=false
+roslaunch limo_bringup limo_start.launch pub_odom_tf:=false
 ```
 
 （2）启动导航功能，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_navigation_diff.launch
+roslaunch limo_bringup limo_navigation_diff.launch
 ```
 
 启动成功之后会打开rviz界面，如图 :
 
 ![](./s2_image/navi_1.png)
 
-注：如需自定义打开的地图，请打开s2_navigation_diff.launch 文件修改参数, 文件所在目录为：~/agilex_ws/src/s2_ros/s2_bringup/launch。请把map02修改为需要更换的地图名称。
+注：如需自定义打开的地图，请打开limo_navigation_diff.launch 文件修改参数, 文件所在目录为：~/agilex_ws/src/limo_ros/limo_bringup/launch。请把map02修改为需要更换的地图名称。
 
 ![](./s2_image/navi_diff.png)
 
 （3）开启导航之后，会发现激光扫描出来的形状和地图没有重合，需要我们手动校正，在rviz中显示的地图上矫正底盘在场景中实际的位置，通过rviz中的工具，发布一个大概的位置，给s2一个大致的位置，然后通过手柄遥控s2旋转，让其自动校正，当激光形状和地图中的场景形状重叠的时候，校正完成。操作步骤如图 ：
 
-![](./s2_image/s2_tu_02.png)
+![](./s2_image/limo_tu_02.png)
 
 校正完成后
 
@@ -778,7 +778,7 @@ roslaunch s2_bringup s2_navigation_diff.launch
 
 （4）通过2D Nav Goal 设置导航目标点。
 
-![](./s2_image/s2_tu_03.png)
+![](./s2_image/limo_tu_03.png)
 
 地图中将会生成一条紫色的路径，手机切换至指令模式，s2将自动导航到目标点
 
@@ -789,13 +789,13 @@ roslaunch s2_bringup s2_navigation_diff.launch
 （1）首先启动雷达，开启一个新的终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_start.launch pub_odom_tf:=false
+roslaunch limo_bringup limo_start.launch pub_odom_tf:=false
 ```
 
 （2）启动导航功能，开启一个新的终端，在终端中输入命令：
 
 ```
-roslaunch s2_bringup s2_navigation_diff.launch
+roslaunch limo_bringup limo_navigation_diff.launch
 ```
 
 （3）启动路径记录功能，开启一个新的终端，在终端中输入命令：
@@ -847,12 +847,12 @@ ORBBEC®Dabai 是基于双目结构光 3D 成像技术的深度相机，主要�
 首先启动ORBBEC®Dabai摄像头，运行下面的命令：
 
 ```
-roslaunch astra_camera astrapro.launch
+roslaunch astra_camera astra.launch
 ```
 
 运行过程中会出现以下警告，这是由于驱动中的一些参数摄像头不支持，可以忽略。
 
-![](./s2_image/dabai.png)
+![](../limo-doc/LIMO_image/dabai.png)
 
 ### 6.2 查看深度信息
 
@@ -866,33 +866,33 @@ rviz
 
 然后添加Image组件就能看到摄像头所拍摄的画面，操作步骤如下。
 
-![](./s2_image/rviz_1.png)
+![](../limo-doc/LIMO_image/rviz_1.png)
 
-![](./s2_image/rviz_2.png)
+![](../limo-doc/LIMO_image/rviz_2.png)
 
 Fixed frame选择camera_link
 
-![](./s2_image/rviz_3.png)
+![](../limo-doc/LIMO_image/rviz_3.png)
 
 image组件填入对应的话题获取rgb图片
 
-![](./s2_image/rviz_4.png)
+![](../limo-doc/LIMO_image/rviz_4.png)
 
 完成上述操作之后就能在Image窗口看到摄像头拍摄的画面了。
 
-![](./s2_image/rviz_5.png)
+![](../limo-doc/LIMO_image/rviz_5.png)
 
 如果想要查看点云数据，点击add添加DepthCloud组件
 
-![](./s2_image/rviz_6.png)
+![](../limo-doc/LIMO_image/rviz_6.png)
 
 fixed frame选择camera_link, DepthCloud组件选择对应的话题
 
-![](./s2_image/rviz_7.png)
+![](../limo-doc/LIMO_image/rviz_7.png)
 
 显示深度图
 
-![](./s2_image/rviz_8.png)
+![](../limo-doc/LIMO_image/rviz_8.png)
 
 ### 6.3 单目相机参数说明
 
@@ -1354,7 +1354,7 @@ ROS提供直接创建功能包的命令catkin_create_pkg，该命令的使用方
  catkin_create_pkg <package_name> [depend1] [depend2] [depend3]...
 ```
 
-在运行catkin_create_pkg命令时，用户需要输入功能包的名称(package_name)和所依赖的其他功能包名称(depend1、depend2、depend3)。例如，我们需要创建一个learning_s2功能包，该功能包依赖于std_msgs、roscpp、rospy等功能包。
+在运行catkin_create_pkg命令时，用户需要输入功能包的名称(package_name)和所依赖的其他功能包名称(depend1、depend2、depend3)。例如，我们需要创建一个learning_limo功能包，该功能包依赖于std_msgs、roscpp、rospy等功能包。
 
 首先进入代码空间，使用catkin_create_pkg命令创建功能包：
 
@@ -1367,10 +1367,10 @@ cd ~/catkin_ws/src
 运行创建功能包的命令
 
 ```
-catkin_create_pkg learning_s2 std_msgs rospy roscpp
+catkin_create_pkg learning_limo std_msgs rospy roscpp
 ```
 
-创建完成后，代码空间src中会生成一个learning_s2功能包，其中已经包含package.xml和CMakeLists.txt文件。
+创建完成后，代码空间src中会生成一个learning_limo功能包，其中已经包含package.xml和CMakeLists.txt文件。
 
 然后回到工作空间的根目录下进行编译，并且设置环境变量：
 
@@ -1402,7 +1402,7 @@ source ~/catkin_ws/devel/setup.bash
 
 ##### 4.3.1 如何创建Publisher
 
-Publisher的主要作用是针对指定话题发布特定数据类型的消息。我们尝试使用代码实现一个节点，节点中创建一个Publisher并控制s2运动。源码文件位置为~/agilex_ws/src/s2_ros/learning_s2/src/talker.cpp，其内容如下：
+Publisher的主要作用是针对指定话题发布特定数据类型的消息。我们尝试使用代码实现一个节点，节点中创建一个Publisher并控制s2运动。源码文件位置为~/agilex_ws/src/limo_ros/learning_limo/src/talker.cpp，其内容如下：
 
 ```
 #include <sstream>
@@ -1460,7 +1460,7 @@ return 0;
 
 ##### 4.3.2 如何创建Subscriber
 
-接下来，我们尝试创建一个Subscriber以订阅Publisher节点发布的控制指令。源码文件位置为~/agilex_ws/src/s2_ros/learning_s2/src/listener.cpp，其内容如下：
+接下来，我们尝试创建一个Subscriber以订阅Publisher节点发布的控制指令。源码文件位置为~/agilex_ws/src/limo_ros/learning_limo/src/listener.cpp，其内容如下：
 
 ```
 #include "ros/ros.h"
@@ -1553,7 +1553,7 @@ source ~/.bashrc
 在运行节点之前，首先需要确保底盘节点已经成功启动：
 
 ```
-roslaunch s2_base s2_base.launch 
+roslaunch limo_base limo_base.launch 
 ```
 
 2.启动Subscriber
@@ -1561,7 +1561,7 @@ roslaunch s2_base s2_base.launch
 先使用rosrun命令启动Subscriber节点，订阅Publisher即将发布的消息：
 
 ```
-rosrun learning_s2 listener 
+rosrun learning_limo listener 
 ```
 
 如果消息订阅成功，会在终端中显示接收到的消息内容。
@@ -1571,7 +1571,7 @@ rosrun learning_s2 listener
 接下来使用rosrun命令启动Publisher：
 
 ```
-rosrun learning_s2 talker
+rosrun learning_limo talker
 ```
 
 如果Publisher节点运行正常，小车会动起来，Subscriber节点也会接收到消息。
@@ -1777,12 +1777,12 @@ sudo dpkg -i sdkmanager_1.7.3-9053_amd64.deb
 
 <div align=center> 	<img src="./LIMO_S2_image/emmc_2.png" width="800"> </div>
 
-1、进入~/downloads/s2-emmc/Linux_for_Tegra目录
+1、进入~/downloads/limo-emmc/Linux_for_Tegra目录
 
 ​	打开终端，在终端在输入命令：
 
 ```
-cd ~/downloads/s2-emmc/Linux_for_Tegra
+cd ~/downloads/limo-emmc/Linux_for_Tegra
 ```
 
 2、在终端中继续输入烧录命令：
@@ -1801,9 +1801,9 @@ sudo ./flash.sh -r jetson-nano-emmc mmcblk0p1
 
 ### 附录 6、固件升级
 
-固件升级的软件在s2的主目录下，文件名称为s2nTest_Nano，升级所需要的固件在我司官方GitHub中，链接为：https://github.com/agilexrobotics/s2-doc
+固件升级的软件在s2的主目录下，文件名称为LimonTest_Nano，升级所需要的固件在我司官方GitHub中，链接为：https://github.com/agilexrobotics/limo-doc
 
-注：如s2中的s2nTest_Nano不能正常打开，请到我司官方GitHub中下载最新的软件，链接为：https://github.com/agilexrobotics/s2-doc
+注：如s2中的LimonTest_Nano不能正常打开，请到我司官方GitHub中下载最新的软件，链接为：https://github.com/agilexrobotics/limo-doc
 
 下载完所需要升级的固件，接下来开始操作步骤：
 
@@ -1811,12 +1811,12 @@ sudo ./flash.sh -r jetson-nano-emmc mmcblk0p1
 
 关机状态下连续按两下开机键进入固件升级模式，当开机键闪烁时，成功进入固件升级模式，等待几秒钟之后，nano会正常启动。
 
-#### 2、赋予s2nTest_Nano软件运行权限
+#### 2、赋予LimonTest_Nano软件运行权限
 
 打开终端，在终端中输入命令：
 
 ```
-chmod +x s2TestV1.1_Nano
+chmod +x LimoTestV1.1_Nano
 ```
 
 #### 3、启动软件，开始升级固件
@@ -1824,7 +1824,7 @@ chmod +x s2TestV1.1_Nano
 在终端中输入命令：
 
 ```
-./s2TestV1.1_Nano 
+./LimoTestV1.1_Nano 
 ```
 
 软件成功打开之后，点击升级按钮，显示的画面如下图所示：
@@ -1849,7 +1849,7 @@ chmod +x s2TestV1.1_Nano
 
 #### 7.1 gmapping功能包中可供配置的参数
 
-注：gmapping功能包的参数的配置文件为：~/agilex_ws/src/s2_ros/s2_bringup/launch/s2_gmapping.launch
+注：gmapping功能包的参数的配置文件为：~/agilex_ws/src/limo_ros/limo_bringup/launch/limo_gmapping.launch
 
 | 参数                      | 类型   | 默认值    | 描述                                                         |
 | ------------------------- | ------ | --------- | ------------------------------------------------------------ |
@@ -1892,7 +1892,7 @@ chmod +x s2TestV1.1_Nano
 
 #### 7.2 cartographer功能包中可供配置的参数
 
-注：cartographer功能包的参数文件为~/agilex_ws/src/s2_ros/s2_bringup/param/build_map_2d.lua
+注：cartographer功能包的参数文件为~/agilex_ws/src/limo_ros/limo_bringup/param/build_map_2d.lua
 
 | 参数                            | 默认值         | 解析                                                         |
 | ------------------------------- | -------------- | ------------------------------------------------------------ |
@@ -1940,7 +1940,7 @@ chmod +x s2TestV1.1_Nano
 
 #### 7.4 DWA中可供配置的参数
 
-注：DWA配置参数文件为~/agilex_ws/src/s2_ros/s2_bringup/param/diff/planner.yaml
+注：DWA配置参数文件为~/agilex_ws/src/limo_ros/limo_bringup/param/diff/planner.yaml
 
 | 参数                    | 类型   | 默认值 | 描述                                                         |
 | ----------------------- | ------ | :----: | ------------------------------------------------------------ |
@@ -1977,7 +1977,7 @@ chmod +x s2TestV1.1_Nano
 
 #### 7.5 TEB可供配置的参数
 
-注：TEB参数配置文件为：~/agilex_ws/src/s2_ros/s2_bringup/param/carlike2/teb_local_planner_params.yaml
+注：TEB参数配置文件为：~/agilex_ws/src/limo_ros/limo_bringup/param/carlike2/teb_local_planner_params.yaml
 
 | 参数                                        | 类型   | 默认值           | 描述                                                         |
 | ------------------------------------------- | ------ | ---------------- | ------------------------------------------------------------ |
